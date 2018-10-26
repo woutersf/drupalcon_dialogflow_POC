@@ -116,7 +116,7 @@ putenv('FLYSYSTEM_S3_BUCKET=YOUR_S3_BUCKET');
 putenv('FLYSYSTEM_S3_PREFIX=YOUR_S3_SUB_FOLDER'); // Highly recommended, to keep things clean.
 
 
-$dbopts = parse_url(getenv('CLEARDB_DATABASE_URL'));
+$dbopts = parse_url(getenv('AWS_DATABASE_URL'));
 $databases['default']['default'] = array(
   'database' => ltrim($dbopts['path'], '/'),
   'username' => $dbopts['user'],

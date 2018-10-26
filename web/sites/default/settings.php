@@ -125,7 +125,7 @@ $databases['default']['default'] = array(
   'host' => $dbopts['host'],
   'port' => $dbopts['port'],
   'namespace' => 'Drupal\\Core\\Database\\Driver\\pgsql',
-  'driver' => $dbopts['scheme'] === 'postgres' ? 'pgsql' : 'mysql',
+  'driver' => 'mysql',//$dbopts['scheme'] === 'postgres' ? 'pgsql' :
 );
 
 // Set Flysystem S3 endpoint.

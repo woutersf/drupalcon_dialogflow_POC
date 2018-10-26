@@ -116,7 +116,7 @@ putenv('FLYSYSTEM_S3_BUCKET=YOUR_S3_BUCKET');
 putenv('FLYSYSTEM_S3_PREFIX=YOUR_S3_SUB_FOLDER'); // Highly recommended, to keep things clean.
 
 
-$dbopts = parse_url(getenv('AWS_DATABASE_URL'));
+$dbopts = parse_url(getenv('DATABASE_URL'));
 $databases['default']['default'] = array(
   'database' => ltrim($dbopts['path'], '/'),
   'username' => $dbopts['user'],
@@ -124,8 +124,8 @@ $databases['default']['default'] = array(
   'prefix' => '',
   'host' => $dbopts['host'],
   'port' => $dbopts['port'],
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',//$dbopts['scheme'] === 'postgres' ? 'pgsql' :
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\pgsql',
+  'driver' => 'pgsql',//$dbopts['scheme'] === 'postgres' ? 'pgsql' :
 );
 
 // Set Flysystem S3 endpoint.

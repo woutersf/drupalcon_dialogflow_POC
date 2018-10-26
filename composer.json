@@ -27,6 +27,7 @@
         "drupal/creative_responsive_theme": "^1.2",
         "drupal/entity_print": "^2.1",
         "drupal/entityreference": "1.x-dev",
+        "drupal/flysystem_s3": "^1.0@beta",
         "drupal/icemagic": "^1.0",
         "drupal/mbase": "^1.1",
         "drupal/paragraphs": "^1.3",

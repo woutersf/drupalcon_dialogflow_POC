@@ -13,6 +13,19 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "drupal/dialogflow_rules",
+                "version": "8.0.0",
+                "type": "drupal-module",
+                "source": {
+                    "url": "git@git.drupal.org:sandbox/wouters_frederik-3001603",
+                    "type": "git",
+                    "reference": "refs/heads/8.x-1.x"
+                }
+            }
         }
     ],
     "require": {
@@ -28,6 +41,7 @@
         "drupal/entity_print": "^2.1",
         "drupal/entityreference": "1.x-dev",
         "drupal/flysystem_s3": "^1.0@beta",
+        "drupal/geysir": "^1.1",
         "drupal/icemagic": "^1.0",
         "drupal/mbase": "^1.1",
         "drupal/paragraphs": "^1.3",

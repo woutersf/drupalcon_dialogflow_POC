@@ -1,0 +1,53 @@
+				<div class="row text-center top-header">
+					<h2 class="title">Our Features</h2>
+					<div class="description">Spend less time with your patients and give them better personalised advice.</div>
+				</div>
+
+
+<div class="row content-boxes">
+					<div class="col-sm-6 col-xs-12 content-box">
+						<div class="header">
+						<span class="icon-circle text-center"><i class="fa fa-mobile"></i></span>
+						<h4 class="title">Patient</h4>
+						</div>
+						<div class="description">Film the patient doing the exercises with your personalised feedback. Not a yoga instructor doing the perfect exercise.</div>
+					</div>
+
+
+
+					<div class="col-sm-6 col-xs-12 content-box">
+						<div class="header">
+							<span class="icon-circle text-center"><i class="fa fa-sticky-note"></i></span>
+							<h4 class="title">Annotate</h4>
+						</div>
+						<div class="description">Add repetitions, remarks, tips and tricks for the patient.</div>
+					</div>
+</div>
+
+<div class="row content-boxes" style="margin-top:1em;margin-bottom:1em;">
+
+					<div class="col-sm-6 col-xs-12 content-box">
+						<div class="header">
+							<span class="icon-circle text-center"><i class="fa fa-play"></i></span>
+							<h4 class="title">Video</h4>
+						</div>
+						<div class="description">Keep all your recordings so you can re-use your content for your patients.</div>
+					</div>
+
+
+					<div class="col-sm-6 col-xs-12 content-box">
+						<div class="header">
+							<span class="icon-circle text-center"><i class="fa fa-video"></i></span>
+							<h4 class="title">physiotherapist approved</h4>
+						</div>
+						<div class="description">Created, tested and approved by physiotherapists.</div>
+					</div>
+</div>
+
+
+
+
+
+
+
+

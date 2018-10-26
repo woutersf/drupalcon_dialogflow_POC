@@ -1,0 +1,3 @@
+<div class = "block-content footer-copyright-content">
+ A <a href="#">Frederik Wouters</a> production
+</div>

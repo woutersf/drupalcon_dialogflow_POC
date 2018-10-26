@@ -1,0 +1,26 @@
+<?php
+/**
+ * @file
+ * Theme file.
+ *
+ * All preprocessors and theme functions goes here.
+ */
+
+/**
+ * Implements hook_preprocess_page().
+ *
+ * @see page.html.twig
+ */
+function kinex1_preprocess_page(&$variables) {
+  $theme = 'kinex1';
+  // Add content for home page regions.
+  $home_page_regions = array (
+    'home_welcome',
+    'content_aqua_green',
+    'footer',
+    'footer_menu',
+    'footer_copyright',
+  );
+
+  $variables['snippet'] = _mbase_smart_render($home_page_regions, $theme);
+}

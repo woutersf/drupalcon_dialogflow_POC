@@ -1,0 +1,13 @@
+            <div class = "main-block-inner">
+               <div class = "row main-title text-center">Personalised Physiotherapy</div>
+               <div class = "row main-desc text-center">Give your patients personalised workouts.</div>
+               <br>
+               <br>
+               <div class = "row main-signup-form-wrap text-center">
+                  <form method="post" action="YOUR_SUBSCRIBE_URL_HERE" id = "ajax-mailchimp-form" class="form-inline" role="form">
+                     <input  class="form-control  input-lg email-field"  type="email" name="EMAIL" placeholder="Enter Your e-mail" required/>
+                     <input type="submit" name="subscribe" value="Subscribe"  class="btn btn-default subscribe-button input-lg btn-lg"/>
+                     <p class="result"></p>
+                  </form>
+               </div>
+            </div>

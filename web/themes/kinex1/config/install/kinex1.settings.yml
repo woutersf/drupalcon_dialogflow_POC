@@ -1,0 +1,91 @@
+mbase_fluid_container: 0
+mbase_button_size: ""
+mbase_button_colorize: 1
+mbase_button_iconize: 1
+mbase_image_shape: ""
+mbase_image_responsive: 1
+mbase_image_thumbnail: 0
+mbase_table_bordered: 1
+mbase_table_condensed: 1
+mbase_table_hover: 1
+mbase_table_striped: 1
+mbase_table_responsive: 1
+mbase_breadcrumb: 1
+mbase_breadcrumb_home: 1
+mbase_breadcrumb_title: 1
+mbase_breadcrumb_text: 'You are here : '
+mbase_navbar_position: static-top
+mbase_navbar_inverse: 0
+mbase_navigation_primary: 1
+mbase_navigation_account: 1
+mbase_region_well-sidebar_first: ""
+mbase_region_well-sidebar_second: ""
+mbase_anchors_fix: 1
+mbase_anchors_smooth_scrolling: 1
+mbase_forms_required_has_error: 0
+mbase_forms_has_error_value_toggle: 1
+mbase_forms_smart_descriptions: 1
+mbase_forms_smart_descriptions_limit: 250
+mbase_forms_smart_descriptions_allowed_tags: b, code, em, i, kbd, span, strong, a, img
+mbase_form_elements_icons: 1
+mbase_alert_dismissible: 1
+mbase_bsflatit: 0
+mbase_animatecss: 0
+mbase_fontawesome: 0
+mbase_toggle_frontpage_content: 1
+mbase_addbscsscdn: >
+  https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css
+mbase_addbsjsscdn: >
+  https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js
+mbase_include_cdn_css: |
+  https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css
+  https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100,400italic,500,500italic,700,700italic,900
+mbase_include_cdn_js: ""
+mbase_excludes_css:
+  - core/misc/vertical-tabs.css
+  - core/modules/system/css/system.theme.css
+  - core/assets/vendor/normalize-css/normalize.css
+  - core/modules/system/css/system.module.css
+  - core/misc/dropbutton/dropbutton.css
+  - core/misc/dropbutton/dropbutton.theme.css
+mbase_excludes_js:
+  - core/assets/vendor/underscore/underscore-min.js
+  - core/assets/vendor/backbone/backbone-min.js
+  - core/misc/dropbutton/dropbutton.js
+  - core/modules/book/book.js
+  - themes/mbase/js/core/misc/dropbutton/dropbutton.js
+mbase_toggle_name: 1
+mbase_toggle_search: 1
+mbase_credits: 1
+mbase_region_menu_style_orientation_branding: mb-menu-horizontal
+mbase_region_menu_child_display_branding: mb-menu-dropdown
+mbase_region_menu_style_orientation_navigation: mb-menu-horizontal
+mbase_region_menu_child_display_navigation: mb-menu-dropdown
+mbase_region_menu_style_orientation_header: mb-menu-horizontal
+mbase_region_menu_child_display_header: mb-menu-dropdown
+mbase_region_menu_style_orientation_highlighted: mb-menu-horizontal
+mbase_region_menu_child_display_highlighted: mb-menu-dropdown
+mbase_region_menu_style_orientation_help: mb-menu-horizontal
+mbase_region_menu_child_display_help: mb-menu-dropdown
+mbase_region_menu_style_orientation_content: mb-menu-horizontal
+mbase_region_menu_child_display_content: mb-menu-dropdown
+mbase_region_menu_style_orientation_sidebar_first: mb-menu-vertical
+mbase_region_menu_child_display_sidebar_first: mb-menu-dropright
+mbase_region_menu_style_orientation_sidebar_second: mb-menu-vertical
+mbase_region_menu_child_display_sidebar_second: mb-menu-dropleft
+mbase_region_menu_style_orientation_footer: mb-menu-horizontal
+mbase_region_menu_child_display_footer: mb-menu-dropno
+mbase_region_menu_style_orientation_page_top: mb-menu-horizontal
+mbase_region_menu_child_display_page_top: mb-menu-dropdown
+mbase_region_menu_style_orientation_page_bottom: mb-menu-horizontal
+mbase_region_menu_child_display_page_bottom: mb-menu-dropdown
+mbase_region_menu_style_orientation_footer_menu: mb-menu-horizontal
+mbase_region_menu_child_display_footer_menu: mb-menu-dropno
+mbase_region_menu_style_orientation_footer_copyright: mb-menu-horizontal
+mbase_region_menu_child_display_footer_copyright: mb-menu-dropno
+section_home_welcome_visibility: 1
+section_content_aqua_green_visibility: 1
+section_footer_visibility: 1
+section_footer_menu_visibility: 1
+section_footer_copyright_visibility: 1
+

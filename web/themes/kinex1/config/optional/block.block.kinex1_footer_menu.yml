@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - kinex1
+id: kinex1_footer_menu
+theme: kinex1
+region: footer_menu
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:footer_menu_main_kinex1_WPpFOSoJyB'
+  label: 'notvisible'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

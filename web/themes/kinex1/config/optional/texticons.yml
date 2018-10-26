@@ -1,0 +1,39 @@
+matches:
+contains:
+  cog:
+    - 'Manage'
+    - 'Configure'
+  download:
+    - 'Download'
+  export:
+    - 'Export'
+  filter:
+    - 'Filter'
+  import:
+    - 'Import'
+  ok:
+    - 'Save'
+    - 'Update'
+  pencil:
+    - 'Edit'
+  plus:
+    - 'Add'
+    - 'Write'
+  remove:
+    - 'Cancel'
+  trash:
+    - 'Delete'
+    - 'Remove'
+  upload:
+    - 'Upload'
+  duplicate:
+    - 'Clone'
+    - 'Copy'
+  eye-open:
+    - 'Preview'
+  log-in:
+    - 'Log in'
+  share-alt:
+    - 'Reply'  
+  print:
+    - 'Printer-friendly version'

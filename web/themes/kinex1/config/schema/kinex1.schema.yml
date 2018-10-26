@@ -1,0 +1,6 @@
+# Schema for the configuration files of the kinex1 theme.
+
+kinex1.settings:
+  type: theme_settings
+  label: kinex1 settings
+

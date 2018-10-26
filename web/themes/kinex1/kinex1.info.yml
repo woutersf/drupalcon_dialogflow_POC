@@ -1,0 +1,32 @@
+name: kinex1
+type: theme
+base theme: mbase
+description: 'Sub-theme for <a href = "https://www.drupal.org/project/mbase" target = "_blank"> mbase</a> template. Generated using <a href = "http://cmsbots.com" target = "_blank">cmsbots.com</a>'
+package: CMSbots
+libraries:
+  - kinex1/global-styling
+
+# version: VERSION
+# core: 8.x
+
+regions:
+  home_welcome: Homepage Welcome
+  content_aqua_green: Homepage Aqua
+  footer: Footer
+  footer_menu: Footer Menu
+  footer_copyright: Footer Copyright
+  branding: Branding
+  navigation: Navigation
+  header: Header
+  highlighted: Highlignted
+  help: Help
+  content: Main Content
+  sidebar_first: Sidebar First
+  sidebar_second: Sidebar Second
+  page_top: Page Top
+  page_bottom: Page Bottom
+version: 8.x-3.x-dev
+core: 8.x
+project: kinex1
+datestamp: 1434064033
+

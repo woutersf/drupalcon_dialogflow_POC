@@ -1,0 +1,3 @@
+<div class = "block-title footer-message-title text-center">
+  <h2 class = "title">Kinex</h2>
+</div>

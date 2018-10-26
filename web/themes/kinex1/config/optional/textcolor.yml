@@ -1,0 +1,42 @@
+matches:
+  primary:
+    - 'Download feature'
+    - 'Reply'
+    - 'Reset your password'
+  success:
+    - 'Add effect'
+    - 'Add and configure'
+    - 'Send message'
+    - 'Log in'
+    - 'Create new account'
+  info:
+    - 'Save and add'
+    - 'Add another item'
+    - 'Update style'
+    - 'Edit'
+
+contains:
+  primary:
+    - 'Confirm'
+    - 'Filter'
+    - 'Submit'
+    - 'Search'
+    - 'Preview'
+  success:
+    - 'Add'
+    - 'Create'
+    - 'Save'
+    - 'Write'
+
+  warning:
+    - 'Export'
+    - 'Import'
+    - 'Restore'
+    - 'Rebuild'
+  info:
+    - 'Apply'
+    - 'Update'
+  danger:
+    - 'Delete'
+    - 'Remove'
+

@@ -36,7 +36,7 @@
         "drupal/captcha": "^1.0@beta",
         "drupal/chatbot_api": "dev-1.x",
         "drupal/console": "^1.0.2",
-        "drupal/core": "~8.5.3",
+        "drupal/core": "~8.6.3",
         "drupal/creative_responsive_theme": "^1.2",
         "drupal/entity_print": "^2.1",
         "drupal/entityreference": "1.x-dev",
@@ -58,7 +58,7 @@
         "webmozart/path-util": "^2.3"
     },
     "require-dev": {
-        "webflo/drupal-core-require-dev": "~8.5.3"
+        "webflo/drupal-core-require-dev": "~8.6.3"
     },
     "conflict": {
         "drupal/drupal": "*"

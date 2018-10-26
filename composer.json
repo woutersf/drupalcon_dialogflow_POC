@@ -23,7 +23,7 @@
                 "source": {
                     "url": "git@git.drupal.org:sandbox/wouters_frederik-3001603",
                     "type": "git",
-                    "reference": "refs/heads/8.x-1.x"
+                    "reference": "8.x-1.x"
                 }
             }
         }

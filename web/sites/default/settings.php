@@ -9,7 +9,7 @@
 $settings['api_ai_webhook_developer_token'] = '8d5efb310e5a45a885a438ba422818d6';
 
 
-
+$config['system.logging']['error_level'] = 'verbose';
 
 
 

@@ -103,16 +103,49 @@ $settings['api_ai_webhook_developer_token'] = '8d5efb310e5a45a885a438ba422818d6'
  * @endcode
  */
 $databases = array();
-$databases['default']['default'] = array (
-    'database' => 'restobot',
-    'username' => 'root',
-    'password' => 'mysql',
-    'host' => '127.0.0.1',
-    'port' => '3306',
-    'driver' => 'mysql',
-    'prefix' => '',
-    'collation' => 'utf8mb4_general_ci',
-  );
+
+
+//putenv('DATABASE_URL=mysql://b77f667fbdb0d0:afc524a2@127.0.0.1:5432/heroku_291e0905a230daf');
+// putenv('DATABASE_URL=mysql://DB_USER:DB_PASS@127.0.0.1/DB_NAME');
+putenv('HASH_SALT=WHATSTHAT___SOME_RANDOM_LONG_ASS_STRING_WITH_RANDAM_LONG_ASS_NUMBERS_987876567560987654321_OMG_-+');
+
+putenv('FLYSYSTEM_S3_KEY=YOUR_S3_KEY');
+putenv('FLYSYSTEM_S3_SECRET=YOUR_S3_SECRET');
+putenv('FLYSYSTEM_S3_REGION=YOUR_S3_REGION');
+putenv('FLYSYSTEM_S3_BUCKET=YOUR_S3_BUCKET');
+putenv('FLYSYSTEM_S3_PREFIX=YOUR_S3_SUB_FOLDER'); // Highly recommended, to keep things clean.
+
+
+$dbopts = parse_url(getenv('CLEARDB_DATABASE_URL'));
+$databases['default']['default'] = array(
+  'database' => ltrim($dbopts['path'], '/'),
+  'username' => $dbopts['user'],
+  'password' => $dbopts['pass'],
+  'prefix' => '',
+  'host' => $dbopts['host'],
+  'port' => $dbopts['port'],
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\pgsql',
+  'driver' => $dbopts['scheme'] === 'postgres' ? 'pgsql' : 'mysql',
+);
+
+// Set Flysystem S3 endpoint.
+$schemes = [
+  's3' => [
+    'driver' => 's3',
+    'config' => [
+      'key'    => getenv('FLYSYSTEM_S3_KEY'),
+      'secret' => getenv('FLYSYSTEM_S3_SECRET'),
+      'region' => getenv('FLYSYSTEM_S3_REGION'),
+      'bucket' => getenv('FLYSYSTEM_S3_BUCKET'),
+      'prefix' => getenv('FLYSYSTEM_S3_PREFIX'),
+    ],
+    'cache' => TRUE,
+  ],
+];
+$settings['flysystem'] = $schemes;
+
+// CSS and JS aggregation need per dyno cache.
+$settings['cache']['bins']['data'] = 'cache.backend.php';
 /**
  * Customizing database settings.
  *
@@ -809,7 +842,8 @@ $settings['entity_update_batch_size'] = 50;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $config_directories['sync'] = '../config/sync';
-$databases['default']['default'] = array (
+if(getenv('CLEARDB_DATABASE_URL') == '') {
+  $databases['default']['default'] = array (
   'database' => 'restobot',
   'username' => 'root',
   'password' => 'mysql',
@@ -819,4 +853,6 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
+}
+
 $settings['install_profile'] = 'standard';

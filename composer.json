@@ -36,8 +36,9 @@
         "drupal/captcha": "^1.0@beta",
         "drupal/chatbot_api": "dev-1.x",
         "drupal/console": "^1.0.2",
-        "drupal/core": "~8.6.3",
+        "drupal/core": "~8.6.2",
         "drupal/creative_responsive_theme": "^1.2",
+        "drupal/dialogflow_rules": "^8.0",
         "drupal/entity_print": "^2.1",
         "drupal/entityreference": "1.x-dev",
         "drupal/flysystem_s3": "^1.0@beta",
@@ -58,7 +59,7 @@
         "webmozart/path-util": "^2.3"
     },
     "require-dev": {
-        "webflo/drupal-core-require-dev": "~8.6.3"
+        "webflo/drupal-core-require-dev": "~8.6.2"
     },
     "conflict": {
         "drupal/drupal": "*"

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "181dbb3cef81db8e40e152cc56b0c973",
+    "content-hash": "40bb643dccf8780b9e977ea27671b0b9",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2670,7 +2670,7 @@
             "version": "8.0.0",
             "source": {
                 "type": "git",
-                "url": "git@git.drupal.org:sandbox/wouters_frederik-3001603",
+                "url": "https://github.com/wouters-frederik/dialogflow_rules.git",
                 "reference": "8.x-1.x"
             },
             "type": "drupal-module"
@@ -7808,7 +7808,7 @@
                 "testing",
                 "web"
             ],
-            "time": "2018-06-24T20:08:51+00:00"
+            "time": "2018-06-24 20:08:51"
         },
         {
             "name": "behat/mink-browserkit-driver",
@@ -7980,7 +7980,7 @@
                 "testing",
                 "webdriver"
             ],
-            "time": "2018-10-10T12:39:06+00:00"
+            "time": "2018-10-10 12:39:06"
         },
         {
             "name": "doctrine/instantiator",

@@ -21,7 +21,7 @@
                 "version": "8.0.0",
                 "type": "drupal-module",
                 "source": {
-                    "url": "git@git.drupal.org:sandbox/wouters_frederik-3001603",
+                    "url": "https://github.com/wouters-frederik/dialogflow_rules.git",
                     "type": "git",
                     "reference": "8.x-1.x"
                 }

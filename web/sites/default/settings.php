@@ -842,17 +842,17 @@ $settings['entity_update_batch_size'] = 50;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $config_directories['sync'] = '../config/sync';
-if(getenv('CLEARDB_DATABASE_URL') == '') {
-  $databases['default']['default'] = array (
-  'database' => 'restobot',
-  'username' => 'root',
-  'password' => 'mysql',
-  'prefix' => '',
-  'host' => '127.0.0.1',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
-}
+// if(getenv('CLEARDB_DATABASE_URL') == '') {
+//   $databases['default']['default'] = array (
+//   'database' => 'restobot',
+//   'username' => 'root',
+//   'password' => 'mysql',
+//   'prefix' => '',
+//   'host' => '127.0.0.1',
+//   'port' => '3306',
+//   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+//   'driver' => 'mysql',
+// );
+//}
 
 $settings['install_profile'] = 'standard';

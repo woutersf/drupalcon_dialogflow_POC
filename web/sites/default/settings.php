@@ -124,7 +124,7 @@ $databases['default']['default'] = array(
   'prefix' => '',
   'host' => $dbopts['host'],
   'port' => $dbopts['port'],
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\pgsql',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',//$dbopts['scheme'] === 'postgres' ? 'pgsql' :
 );
 

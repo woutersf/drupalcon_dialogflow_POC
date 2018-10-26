@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "restobot-hfb",
+  "private_key_id": "4efa464807f38b4b78c78b1fcbca923c505a2397",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCxrtqYeWqveyMz\n+nRs/2JMVO4rLOr6xx3sj5PzeYwfCU6kLMyyMNUkzs3Oo7pYcB5laPniYumi24eM\nx9S0Z5gYGELYZIl3IpEfLgjtWi+zvLvxqHuezXqmFc2jKuzpOn54LQx0Uzpv+Z7J\nnS6GlpnIduPYSpKXGSr5mwRCLr24pxjO5xgx7Nzt+RUTRlXTGwHO19JZWxucBrss\n0rjQcqXeBFk421PF3NGAmya3YCiA8e0GLXT4KwyyFMKqewiHrAVTPQY79LzBRQuM\ndlc+NdNcCvCbtnI+qc/vCAcP39cmeZAuUh4rXINTdqrcGMpFRhOjpzFZvA+c8MzL\nldnWgYozAgMBAAECggEAF9zNQ7PutYF6kVT+BNNpfqnbUJYYOrS6GpaPvp+gx1xH\nIPpZRUcUoPxbHHjVomHwWxs1kAdLrFECS9Bcixvsi7PaalhaM9NDHSZgEYxOorti\nnEpNy955rct40gSGS65M5NPb+9VfoEEsZ5RB9tZL8eWxpM8jD8LUCDCe6kp/tUgV\ntu22OyhuejzJLJ1qw4jhwbM4xI6m0E33Dg+yNxSNpG+8SlML1h4LyTegmVHcOKe3\nnw9ug5fJdNKlc7oJV536os2Bctb9TX50gUZfU030rR2V8PtI5Yc9QOiqgB9ReW7G\nB6U/9Fq7hlbzyHPnsHlRqAy5X6MAFbVswIHDjb/szQKBgQD4ACTlWNUtJgEVKzcD\nn3oOd6DY/ATgWHZO6G82MBI5M/f3LqiWnza8VCkXj/WP40wBoru8H0o8uYtzaKx8\nkdqLuHPQOi5Qw6s7Joi2hkkd1Yz4a4c6tbeeac4c+iDWw+A7Q3z5bfm0fj2oMknv\nT7UJoOQZmcZUUEgZbBRzFEDdnQKBgQC3ahCusyUp/tEzmFjeUxwqKlI6gk6ztcqG\ntJwLmUWZyple2mosCVGp3i2CStCvyEZ+txvBoWNR0mbVsi5EPo2JlERAdAqCBhJn\niV9/E031Yalg7L35bWXRAkia/epZ7vmfMM4lOzEagy+6eYjP7LWrSBtBKGHSuNvD\nIAZhb4hmDwKBgECj+Pn2j4n3D+0umGZPWQcQU1J7TeIT7LJgjyw2l2lljEpXVQX9\ndczcuuEzWrQocJU0j25XUYhGbHymWd8WPTqR1038/Dl85tLCFnxMwB4QnW/axyKc\nXsHhniGbaJfR8k5AJwD0k1NiXDvM78x6oBtkXk/17uXnDwPhUes06jtZAoGBAINU\n6FMfpbnXY1cNfHzdh+pNWYnZqp8VycoA40eO3X6MyptXy/RyS85Vb8K+7YUg5BFx\n7ecNN7/r54SWzHhDTje4OdLpBGksDdujSwUD/qt43b6wZiuHAQPTHcgVjswMySMK\n4GFabAOu8esVgThZJ5BY1mMmlj077uheMxNruIBTAoGBANMpwVObTpOvYEWteqjZ\nQqdkY+Pf8EfI2JEea/C5IgpTu64+WuTOLt/RR5XIkUugrxGk7tXue2d7VP+XwsGb\nSSjDs7I/hg/j3xMsvBYgZ7OmchZXQvKDjfyH9+emT189pAYsf/c9GMr5mB1o21rv\now24rWdBFDlhrcZHoFJTaDco\n-----END PRIVATE KEY-----\n",
+  "client_email": "drupal@restobot-hfb.iam.gserviceaccount.com",
+  "client_id": "115476820239721050576",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/drupal%40restobot-hfb.iam.gserviceaccount.com"
+}

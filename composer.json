@@ -34,7 +34,7 @@
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/api_ai_webhook": "^2.0.0",
         "drupal/captcha": "^1.0@beta",
-        "drupal/chatbot_api": "8.x-1.0",
+        "drupal/chatbot_api": "dev-1.x",
         "drupal/console": "^1.0.2",
         "drupal/core": "~8.6.2",
         "drupal/creative_responsive_theme": "^1.2",

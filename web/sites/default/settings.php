@@ -5,9 +5,8 @@
 
 
 
-
-$settings['api_ai_webhook_developer_token'] = '8d5efb310e5a45a885a438ba422818d6';
-
+$developer_token = getenv('DIALOGFLOW_DEV_TOKEN');
+$settings['api_ai_webhook_developer_token'] = $developer_token;
 
 $config['system.logging']['error_level'] = 'verbose';
 
@@ -107,7 +106,8 @@ $databases = array();
 
 //putenv('DATABASE_URL=mysql://b77f667fbdb0d0:afc524a2@127.0.0.1:5432/heroku_291e0905a230daf');
 // putenv('DATABASE_URL=mysql://DB_USER:DB_PASS@127.0.0.1/DB_NAME');
-putenv('HASH_SALT=WHATSTHAT___SOME_RANDOM_LONG_ASS_STRING_WITH_RANDAM_LONG_ASS_NUMBERS_987876567560987654321_OMG_-+');
+
+
 
 putenv('FLYSYSTEM_S3_KEY=YOUR_S3_KEY');
 putenv('FLYSYSTEM_S3_SECRET=YOUR_S3_SECRET');
@@ -353,7 +353,9 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'Y-5pg9WUEEUuvKHbemwGYCmg-kCNbg7nGeBeZbqALhCE_HrrdARKzgiGarEXWAPbtFtxEIFBRQ';
+$hash_salt = getenv('HASH_SALT');
+putenv('HASH_SALT=' . $hash_salt);
+$settings['hash_salt'] = $hash_salt;
 
 /**
  * Deployment identifier.

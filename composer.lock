@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "40bb643dccf8780b9e977ea27671b0b9",
+    "content-hash": "c65f251715388a037cc9468e8d57ba51",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1858,15 +1858,15 @@
         },
         {
             "name": "drupal/api_ai_webhook",
-            "version": "dev-2.x",
+            "version": "dev-1.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/api_ai_webhook",
-                "reference": "0619b613aedac93206e287be31c105876209444d"
+                "reference": "8c0c53983e9a60f6b005d71c19d6e08e21b8cdb4"
             },
             "require": {
                 "drupal/core": "~8.0",
-                "iboldurev/dialogflow": "^0.3.0"
+                "iboldurev/api-ai-php": "^0.2.5"
             },
             "require-dev": {
                 "drupal/chatbot_api": "*"
@@ -1874,11 +1874,11 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-2.x": "2.x-dev"
+                    "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.x-dev",
-                    "datestamp": "1532263081",
+                    "version": "8.x-1.0-beta2+2-dev",
+                    "datestamp": "1532218381",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -1908,7 +1908,7 @@
                 "source": "http://cgit.drupalcode.org/api_ai_webhook",
                 "issues": "https://www.drupal.org/project/issues/api_ai_webhook"
             },
-            "time": "2018-07-22 13:35:06"
+            "time": "2018-07-22 00:12:21"
         },
         {
             "name": "drupal/captcha",
@@ -2004,6 +2004,9 @@
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
                     }
+                },
+                "patches_applied": {
+                    "use Dialogflow action in stead of intent name": "https://www.drupal.org/files/issues/2018-10-30/use-action-in-stead-of-intent-name-3010190-12836053.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -4555,6 +4558,50 @@
                 "url"
             ],
             "time": "2017-03-20T17:10:46+00:00"
+        },
+        {
+            "name": "iboldurev/api-ai-php",
+            "version": "0.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iboldurev/dialogflow.git",
+                "reference": "33aae1b4dc06b52255127f1885378a47e0e76025"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iboldurev/dialogflow/zipball/33aae1b4dc06b52255127f1885378a47e0e76025",
+                "reference": "33aae1b4dc06b52255127f1885378a47e0e76025",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.2",
+                "php": ">=5.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ApiAi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Boldyrev",
+                    "email": "iboldurev@gmail.com",
+                    "homepage": "https://github.com/iboldurev"
+                }
+            ],
+            "description": "API.ai php sdk",
+            "keywords": [
+                "api.ai",
+                "api.ai sdk",
+                "bot"
+            ],
+            "abandoned": "iboldurev/dialogflow",
+            "time": "2016-08-20T08:27:17+00:00"
         },
         {
             "name": "iboldurev/dialogflow",
@@ -9920,8 +9967,9 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/captcha": 10,
-        "drupal/chatbot_api": 20,
         "drupal/entityreference": 20,
+        "drupal/chatbot_api": 20,
+        "drupal/api_ai_webhook": 20,
         "drupal/flysystem_s3": 10,
         "drupal/rules": 15,
         "drupal/webform": 5

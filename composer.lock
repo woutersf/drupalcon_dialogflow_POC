@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1afc8ea155cc7ebf5695c0450413f257",
+    "content-hash": "8e04d8745d795319a29ba240e8d24987",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2670,7 +2670,7 @@
         },
         {
             "name": "drupal/dialogflow_rules",
-            "version": "8.0.2",
+            "version": "8.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wouters-frederik/dialogflow_rules.git",

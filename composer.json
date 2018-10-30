@@ -18,7 +18,7 @@
             "type": "package",
             "package": {
                 "name": "drupal/dialogflow_rules",
-                "version": "8.0.0",
+                "version": "8.0.1",
                 "type": "drupal-module",
                 "source": {
                     "url": "https://github.com/wouters-frederik/dialogflow_rules.git",

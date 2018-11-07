@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bd1521f4a1575eccdcad6bb292e9de23",
+    "content-hash": "7b06c9b52eb00fc806cd644dba556aa6",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2006,7 +2006,7 @@
                     }
                 },
                 "patches_applied": {
-                    "use Dialogflow action in stead of intent name": "https://www.drupal.org/files/issues/2018-10-30/use-action-in-stead-of-intent-name-3010190-12836053.patch"
+                    "use Dialogflow action in stead of intent name": "https://www.drupal.org/files/issues/2018-10-30/commentfixed-intent-working-3010190-6_0.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

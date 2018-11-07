@@ -18,7 +18,7 @@
             "type": "package",
             "package": {
                 "name": "drupal/dialogflow_rules",
-                "version": "8.0.6",
+                "version": "8.0.7",
                 "type": "drupal-module",
                 "source": {
                     "url": "https://github.com/wouters-frederik/dialogflow_rules.git",
@@ -106,6 +106,9 @@
             }
         },
         "patches": {
+            "drupal/chatbot_api": {
+                "use Dialogflow action in stead of intent name": "https://www.drupal.org/files/issues/2018-10-30/commentfixed-intent-working-3010190-6_0.patch"
+            }
         }
     }
 }
